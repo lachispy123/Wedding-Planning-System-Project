@@ -1,302 +1,51 @@
-# concerned-picture-9849
-# RecipeHub
+ # Wedding / Marriage-Event-Management-System
+### Welcome to Marry Manage!
 
-RecipeHub is a user-friendly culinary hub that offers a wealth of features for food enthusiasts of all skill levels. This online platform is designed to inspire, connect, and share the joy of cooking with a community of like-minded individuals.
+### Marry Manage is your dedicated partner in simplifying wedding planning in India. Our platform connects couples seamlessly with reliable vendors who are registered and managed on our platform, including marriage halls, catering services, and more, prioritizing your preferences, feasibility, and budget tracker for a tailored and hassle-free experience.
 
-With RecipeHub, you can explore a diverse array of recipes, save your favorite ones, and create personalized feeds filled with mouthwatering dishes that match your tastes and dietary preferences. The platform makes it easy to connect with fellow foodies through a convenient messaging system, allowing you to exchange cooking tips, recommendations, and ideas in a friendly and engaging environment.
 
-One of the standout features of RecipeHub is its ability to post your own culinary creations, similar to the way you'd share photos on Instagram. You can showcase your cooking prowess by uploading your recipes, complete with mouthwatering images, step-by-step instructions, and ingredient lists. Whether you're a seasoned chef or just starting your culinary journey, RecipeHub is the perfect digital kitchen companion, offering you a place to discover, share, and communicate with a vibrant community of fellow food enthusiasts.
+### THIS CODE WAS DONE IN JAVA USING ECLIPSE based on JPanels and JFrames. It also utilizes MySQL as its database. IT IS A COMPLETE project with UI-LAYER DB-LAYER and Backend code in JAVA. It utilizes a database and is based on the principles of OOP. 
+### YOU CAN VISIT .PDF and .pptx file to view its UI and understand the details of project. 
 
-Live : [https://concerned-picture-9849-frontend.vercel.app/]
+[SDA_ProjectReport.pdf](https://github.com/TayyabSohail/Marriage-Event-Management-System/files/13631149/i210822_i212478_ProjectReport.pdf)
 
-## Key Features
+[SDA_Project_Presentation.pptx](https://github.com/TayyabSohail/Marriage-Event-Management-System/files/13631153/SDA_Project_Presentation.pptx)
 
-- **User Registration and Authentication**:
-  - Create an easy-to-use registration and login system.
-  - Ensure secure account creation and login processes.
+##CLASS DIAGRAM , DOMAIN MODEL , DEPLOYMENT DIAGRAM , PACKAGE DIAGRAM , SEQUENCE DIAGRAMS , SYSTEM SEQUENCE DIAGRAMS AVAILABLE IN .pdf FILE ATTACHED ABOVE
 
-- **User Profiles**:
-  - Enable users to personalize their profiles with pictures and personal information.
 
-- **Post Creation and Sharing**:
-  - Allow users to create, edit, and share posts with text, images, and links.
-  - Implement tagging, hashtags, and location tagging features.
+#MAIN PAGE
+![WELCOME](https://github.com/TayyabSohail/Marriage-Event-Management-System/assets/129260556/1c044d64-056f-4ea4-a27a-74c9a97cdb7f)
+#This is the main page of the system through which login and register functions are carried on.
 
-- **News Feed**:
-  - Develop a dynamic news feed displaying posts from friends and the global recipe feed from the backend.
+#LOGIN/REGISTER
+![LoginRegister](https://github.com/TayyabSohail/Marriage-Event-Management-System/assets/129260556/5f67560b-f638-4b7b-89ac-e0caae040ab1)
+There is a main login in button and if the user is new, he/she can create a Vendor/Customer account
 
-- **User Interaction**:
-  - Include like, comment, and share functionalities to encourage user engagement.
 
-- **Friend Management**:
-  - Create features for sending, accepting, or rejecting friend requests.
-  - Implement tools to manage friends.
+#MANAGE PORTFOLIO TAB
+![ManagePortfolio](https://github.com/TayyabSohail/Marriage-Event-Management-System/assets/129260556/a861fe2f-cd4e-4e1f-be37-ed086c05672a)
+This interface is used by Vendor to create his/her new portfolios ADD, UPDATE, DELETE their portfolios.
 
-- **Private Messaging**:
-  - Set up a messaging system for sending and receiving private messages.
 
-- **Recipe Management**:
-  - Utilize backend capabilities for users to create, edit, and share recipes, as well as view recipes from others.
+#VIEW ORDERS (for Vendor Interface)
+![ViewOrders](https://github.com/TayyabSohail/Marriage-Event-Management-System/assets/129260556/376f7552-47d4-4ff7-9653-62f57dcae681)
+This is also used by Vendor to see their orders
 
-- **Notification System**:
-  - Notify users about friend requests, likes, comments, and messages to keep them engaged.
 
-- **User Search**:
-  - Implement a search functionality for finding friends and recipes easily.
+#SEARCH VENDOR
+![SearchVendor](https://github.com/TayyabSohail/Marriage-Event-Management-System/assets/129260556/30af0d17-0505-45a6-b56a-5f39084005c4)
+This contains filters and search bar which can be selected to BOOK an ORDER
 
-- **User Settings**:
-  - Allow users to customize account settings, privacy settings, and notification preferences.
 
-- **Logout and Account Deletion**:
-  - Enable users to log out and delete their accounts when needed.
+#VIEW ORDER (for Customer Interface) and FEEDBACK TAB
+![ViewOrder](https://github.com/TayyabSohail/Marriage-Event-Management-System/assets/129260556/502d9985-131a-4a95-b8c6-d8c9e008bf8b)
+![ViewOrder Feedback](https://github.com/TayyabSohail/Marriage-Event-Management-System/assets/129260556/054fd32b-1dd1-4b13-a999-07d8c9a8b7ad)
+USED BY CUTOMER TO PROCEED TO PAYMENT and CHECK STATUS OF THEIR ORDER
+Customer can also give valuable feedback and give STARS as ratings
 
-- **Responsive Design**:
-  - Ensure that the UI is responsive and functions well on various devices, including mobile and desktop.
 
-- **Data Security**:
-  - Implement security measures to protect user data, including encryption and secure connections.
-
-- **Error Handling**:
-  - Provide clear error messages and graceful handling of exceptions to enhance the user experience.
-
-- **Documentation and Help**:
-  - Offer user guides or tooltips to assist users in navigating and understanding the platform.
-
-- **Testing and Debugging**:
-  - Conduct thorough testing to identify and resolve any issues, bugs, or performance concerns.
-
-
-
-## Tech Stack
-
-- Frontend: React.js
-- Backend: Node.js
-- Database: MongoDB
-  <br>![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![](https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white)
-![](https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)
-![](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-
-# Different Pages of Website
-
-
-
-
-
-
-## Backend Application Routes, Endpoints and Usage
-
-- Backend Link :[https://concerned-picture-9849-jcof.onrender.com/]
-
-The backend is built on Node.js.This documentation outlines the available routes and endpoints for the backend application. These routes are responsible for handling various operations, including user authentication, recipe management, user management, and comment handling.
-| Route                        | Use Case                               | Access               |
-| ----------------------------- | -------------------------------------- | -------------------- |
-| **Authentication Routes**    |                                        |                      |
-| POST `/auth/signup`          | Create a new user with a profile image | User registration    |
-| POST `/auth/login`           | Log in a user                          | User login credentials |
-| GET `/auth/logout`           | Log out a user                         | No authentication required |
-| **Fetch All Recipes**        |                                        |                      |
-| GET `/recipe/feed`           | Retrieve user's feed of recipes       | No authentication required |
-| **Private Routes (Authentication Required)** |                                |                      |
-| GET `/recipe/getMyRecipe`    | Retrieve user's recipes                | User authentication  |
-| GET `/recipe/getSingleRecipe/:id` | Retrieve a single recipe by ID  | User authentication  |
-| GET `/recipe/getAllRecipe`   | Retrieve all available recipes         | User authentication  |
-| PATCH `/recipe/update/:id`   | Update a recipe by ID                  | User authentication  |
-| **User Routes (Authentication Required)** |                              |                      |
-| GET `/users/requests`        | Retrieve user friend requests         | User authentication  |
-| GET `/users/friends`         | Retrieve user's friends                | User authentication  |
-| GET `/users/notfriends`      | Retrieve users who are not friends    | User authentication  |
-| GET `/users/:id`             | Retrieve a single user by ID          | User authentication  |
-| GET `/users/`                | Retrieve the profile of the logged-in user | User authentication  |
-| PATCH `/users/update/:id`    | Update user information by ID         | User authentication  |
-| PATCH `/users/addFriend/:id` | Add a friend to the user's friend list | User authentication  |
-| DELETE `/users/delete/:id`   | Delete a user by ID                    | User authentication  |
-| **Comment Routes**           |                                        |                      |
-| GET `/`                      | Retrieve all comments                  | No authentication required |
-| POST `/add`                  | Add a new comment to a recipe          | User authentication  |
-| PATCH `/update/:id`          | Update a comment by ID                 | User authentication  |
-| DELETE `/delete/:id`         | Delete a comment by ID                 | User authentication  |
-
-
-### Login, Register, and Logout Routes
-
-#### POST `/auth/signup`
-
-- Creates a new user with a profile image.
-- Requires user registration information.
-- Example usage: `/auth/signup`
-
-#### POST `/auth/login`
-
-- Logs in a user.
-- Requires user login credentials.
-- Example usage: `/auth/login`
-
-#### GET `/auth/logout`
-
-- Logs out a user.
-- No additional parameters are required.
-- Example usage: `/auth/logout`
-
-### Fetch All Recipes
-
-#### GET `/recipe/feed`
-
-- Retrieves the user's feed of recipes.
-- Example usage: `/recipe/feed`
-
-
-#### Private Routes (Authentication Required)
-
-#### GET `/recipe/getMyRecipe`
-
-- Retrieves the recipes created by the authenticated user.
-- Example usage: `/recipe/getMyRecipe`
-
-#### GET `/recipe/getSingleRecipe/:id`
-
-- Retrieves a single recipe by its ID.
-- Requires user authentication.
-- Example usage: `/recipe/getSingleRecipe/:id`
-
-#### GET `/recipe/getAllRecipe`
-
-- Retrieves all available recipes.
-- Requires user authentication.
-- Example usage: `/recipe/getAllRecipe`
-
-#### PATCH `/recipe/update/:id`
-
-- Updates a recipe by its ID.
-- Requires user authentication.
-- Example usage: `/recipe/update/:id`
-  
-### User Routes (Authentication Required)
-
-#### GET `/users/requests`
-
-- Retrieves user friend requests.
-- Requires user authentication.
-- Example usage: `/requests`
-
-#### GET `/users/friends`
-
-- Retrieves the user's friends.
-- Requires user authentication.
-- Example usage: `/users/friends`
-
-#### GET `/users/notfriends`
-
-- Retrieves users who are not yet friends with the authenticated user.
-- Requires user authentication.
-- Example usage: `/users/notfriends`
-
-#### GET `/users/:id`
-
-- Retrieves a single user by their ID.
-- Requires user authentication.
-- Example usage: `/users/:id`
-
-#### GET `/users/`
-
-- Retrieves the profile of the currently logged-in user.
-- Requires user authentication.
-- Example usage: `/users/`
-
-#### PATCH `/users/update/:id`
-
-- Updates a user's information by their ID.
-- Requires user authentication.
-- Example usage: `/update/:id`
-
-#### PATCH `/users/addFriend/:id`
-
-- Adds a friend to the authenticated user's friend list.
-- Requires user authentication.
-- Example usage: `/users/addFriend/:id`
-
-#### DELETE `/users/delete/:id`
-
-- Deletes a user by their ID.
-- Requires user authentication.
-- Example usage: `/delete/:id`
-
-### Comment Routes
-
-#### GET `/`
-
-- Retrieves all comments.
-- No authentication required.
-- Example usage: `/`
-
-#### POST `/add`
-
-- Adds a new comment to a recipe.
-- Requires user authentication.
-- Example usage: `/add`
-
-#### PATCH `/update/:id`
-
-- Updates a comment by its ID.
-- Requires user authentication.
-- Example usage: `/update/:id`
-
-#### DELETE `/delete/:id`
-
-- Deletes a comment by its ID.
-- Requires user authentication.
-- Example usage: `/delete/:id`
-
-
-Please ensure that proper authentication and authorization mechanisms are in place for private routes, as they require user authentication.
-
-## Getting Started
-
-To run RecipeHub locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/recipehub.git`
-2. Install dependencies: `npm install`
-3. Set up the database and configure environment variables.
-4. Start the development frontend-app: `npm start`
-5. Start the development server: `npm run server`
-# Some sample pictures of our Website
-### Home Page
-<img width="948" alt="Home Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b01m52i5a9xqgxa0pg7x.png">
-<img width="948" alt="Home Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mqd16nnp4xip5kqhyivj.png">
-<img width="948" alt="Home Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1jc1g173lgjzotaef23b.png">
-<img width="948" alt="Home Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fvk4twvz5okc5dxi6eh4.png">
-
-### Login and Register Pages
-<img width="948" alt="Login Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6tswhv6n1yeqgyy08cgv.png">
-<img width="948" alt="Register Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vuprnumy262g7rb42gw6.png">
-
-### Explore Page
-<img width="948" alt="Explore Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/120l1mkq8c6wwc6jd4io.png">
-<img width="948" alt="Explore Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pu2o5rjqwli7fkbpgt9p.png">
-
-### Feed Page
-<img width="948" alt="Feed Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iv2453qehp2ir903stfs.png">
-
-### Single Post Page
-<img width="948" alt="Single Post Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kc56huk0ba1mlackhc1s.png">
-
-### Account Page
-<img width="948" alt="Account Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/896c1v3u0r881s1qhdh4.png">
-
-
-
-## Contributors
-
-RecipeHub is a teamwork project. Meet our awesome teammates:
-- Ayushmaan Rajput(team lead) - Email: ayushmaanrajput25feb@gmail.com
-- Nishant Singh - Email: nishantkr488@gmail.com
-- Ranvijay Tiwari - Email: ranvijaytiwari0000@gmail.com
-- Vamshikrishna Bejjarapu - Email: vamshikrishna99089@gmail.com
-
-*Note: This group project was developed in 5 days.*
-<br>
--------------------------------Thank You😊-----------------------------------------
-
+#PAYMENT TAB
+![Payment](https://github.com/TayyabSohail/Marriage-Event-Management-System/assets/129260556/a568c5d7-2f05-4ef5-b0f0-cb42f1ecd9d4)
+  This contains users total balance , the ability to cancel transaction and and OrderID, PaymentID and
+business name

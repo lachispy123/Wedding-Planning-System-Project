@@ -1,0 +1,456 @@
+/* Dashboard.css */
+
+.dashboard {
+  padding: 20px 0;
+}
+
+/* Wedding Planner Introduction */
+.planner-intro {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+.planner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.planner-info {
+  flex: 1;
+}
+
+.planner-name {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.planner-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+  opacity: 0.9;
+}
+
+.planner-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.95;
+}
+
+.planner-badge {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+}
+
+.planner-badge svg {
+  font-size: 20px;
+}
+
+/* Platform Overview */
+.platform-overview {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.title-icon {
+  color: #667eea;
+  font-size: 28px;
+}
+
+.platform-description {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Dashboard Stats */
+.dashboard-stats {
+  margin-bottom: 40px;
+}
+
+.stats-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-icon {
+  font-size: 24px;
+  color: #667eea;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(102, 126, 234, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.stat-number {
+  font-size: 36px;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #667eea;
+  margin-bottom: 10px;
+}
+
+.stat-subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Quick Actions */
+.quick-actions {
+  margin-bottom: 40px;
+}
+
+.quick-actions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.quick-action-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.quick-action-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  text-decoration: none;
+  color: #333;
+}
+
+.quick-action-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: white;
+  font-size: 32px;
+}
+
+.quick-action-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
+.quick-action-card p {
+  color: #666;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Platform Features */
+.platform-features {
+  margin-bottom: 40px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(102, 126, 234, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #667eea;
+  font-size: 24px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 15px 0;
+}
+
+.feature-card p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Wedding Services */
+.wedding-services {
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(102, 126, 234, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  color: #667eea;
+  font-size: 20px;
+}
+
+.service-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.service-card p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Planning Progress */
+.progress-section {
+  margin-bottom: 40px;
+}
+
+.progress-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.progress-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.progress-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.progress-percentage {
+  font-size: 16px;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #e9ecef;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 10px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.3s ease;
+}
+
+/* Contact Section */
+.contact-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-info p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.contact-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.contact-item strong {
+  color: #667eea;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .planner-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .planner-name {
+    font-size: 36px;
+  }
+  
+  .planner-title {
+    font-size: 20px;
+  }
+  
+  .planner-description {
+    font-size: 16px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+  }
+  
+  .platform-description {
+    font-size: 16px;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .quick-actions-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .progress-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-details {
+    grid-template-columns: 1fr;
+  }
+} 
